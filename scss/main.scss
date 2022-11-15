@@ -1,0 +1,26 @@
+@import './base/modern-normalize';
+@import './utils/variables';
+@import './base/basic-style';
+
+@import './components/icon-style';
+@import './components/logo';
+@import './components/button';
+@import './components/nav';
+@import './components/contact-list';
+@import './components/checkbox';
+@import './components/forms-subscribe';
+@import './components/section-title.scss';
+@import './components/close-button';
+@import './components/modal';
+@import './components/hidden';
+
+@import './layout/header_page';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/work';
+@import './layout/team';
+@import './layout/customers';
+@import './layout/footer_page';
+
+@import './layout/form-modal';
+@import './layout/portfolio';

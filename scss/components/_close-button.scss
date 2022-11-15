@@ -1,0 +1,21 @@
+.close-button {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    top: 8px;
+    right: 8px;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}

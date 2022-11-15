@@ -1,0 +1,18 @@
+.checkbox {
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    width: 16px;
+    height: 15px;
+
+    background-image: url(../images/icon/checkboxoff.svg);
+}
+
+.form__checkbox-input:checked+.checkbox {
+    background-image: url(../images/icon/check_on.svg);
+}
+
+.form__checkbox-input:focus+.checkbox {
+    outline-style: auto;
+    outline-color: #000000;
+}
