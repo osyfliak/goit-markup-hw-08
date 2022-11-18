@@ -1,13 +1,14 @@
 .form-subscribe {
     display: flex;
-    gap: 12px;
     flex-wrap: wrap;
+   
 
     &__input {
+ 
         background-color: transparent;
         color: #FFFFFF;
-        max-width: 358px;
-        width: 358px;
+        
+        width: 100%;
         height: 50px;
 
         padding: 15px 16px;
@@ -17,4 +18,8 @@
 
         outline: transparent;
     }
+}
+
+.footer__label{
+    max-width: 450px;
 }

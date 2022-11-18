@@ -2,7 +2,13 @@
     display: flex;
     margin-left: auto;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
+        @media screen and (min-width: 768px) {
+                
+                gap: 10px;
+
+            }
 
     &__link {
         color: var(--title-text-color);

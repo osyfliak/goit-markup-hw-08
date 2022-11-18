@@ -1,11 +1,15 @@
 .checkbox {
     position: absolute;
-    left: 5px;
-    top: 3px;
+    left: -1px;
+    top: -2px;
     width: 16px;
     height: 15px;
 
     background-image: url(../images/icon/checkboxoff.svg);
+    @media screen and (min-width: 1200px) {
+        left: 5px;
+        top: 3px;
+        }
 }
 
 .form__checkbox-input:checked+.checkbox {

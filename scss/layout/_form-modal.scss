@@ -110,8 +110,8 @@
 
     color: var(--title-text-color);
 
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.1666;
     letter-spacing: 0.03em;
 
     & .link {
@@ -119,4 +119,9 @@
         text-decoration: underline;
         text-decoration-skip-ink: none;
     }
+         @media screen and (min-width: 1200px) {
+                font-size: 14px;
+                    line-height: 1.71;
+                    letter-spacing: 0.03em;
+         }
 }

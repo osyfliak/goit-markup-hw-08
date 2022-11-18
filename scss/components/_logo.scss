@@ -1,9 +1,20 @@
 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     color: var(--accent-color);
-    margin-right: 93px;
+    // margin-right: 93px;
 
     font-size: 26px;
     text-decoration: none;
     font-family: var(--minor-font-family);
     line-height: 1.2;
+        @media screen and (min-width: 768px) {
+                margin-right: 93px;
+            }
+        @media screen and (min-width: 1200px) {
+                margin-right: 93px;
+            }
+   
 }
