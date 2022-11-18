@@ -30,31 +30,29 @@
           </ul>
         </nav>
       </div>
-      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-        <svg class="icon icon-button-burger">
-          <use xlink:href="./images/icons.svg#icon-button-burger" width="40" height="40"></use>
-        </svg>
+      <button class="button-burger menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="icon icon-button-burger" width="40" height="40"><use xlink:href="./images/icons.svg#icon-button-burger"></use></svg>
       </button>
       <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="menu-toggle js-close-menu">
-          <svg class="icon icon-close-buton-menu">
-            <use xlink:href="./images/icons.svg#icon-close-buton-menu" width="40" height="40"></use>
+        <button class="button-close-burger menu-toggle js-close-menu">
+          <svg class="icon icon-close-buton-menu" width="40" height="40">
+            <use xlink:href="./images/icons.svg#icon-close-buton-menu" ></use>
           </svg>
         </button>
-        <ul class="list">
-          <li><a class="link" href="#">Студія</a></li>
-          <li><a class="link" href="#">Портфоліо</a></li>
-          <li><a class="link" href="#">Контакти</a></li>
+        <ul class="mobile-nav__list list">
+          <li class="mobile-nav__item"><a class="link" href="#">Студія</a></li>
+          <li class="mobile-nav__item"><a class="link" href="#">Портфоліо</a></li>
+          <li class="mobile-nav__item"><a class="link" href="#">Контакти</a></li>
         </ul>
-        <ul class="list">
-          <li><a class="link" href="tel.+380961111111">+38 096 111 11 11</a></li>
-          <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <ul class="mobile-contact__list list">
+          <li class="mobile-contact__item"><a class="link" href="tel.+380961111111">+38 096 111 11 11</a></li>
+          <li class="mobile-contact__item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         </ul>
-        <ul class="list">
-          <li><a class="link" href="#">Instagram</a></li>
-          <li><a class="link" href="#">Twitter</a></li>
-          <li><a class="link" href="#">Facebook</a></li>
-          <li><a class="link" href="#">LinkedIn</a></li>
+        <ul class="mobile-social__list list">
+          <li mobile-social__item><a class="link" href="#">Instagram</a></li>
+          <li mobile-social__item><a class="link" href="#">Twitter</a></li>
+          <li mobile-social__item><a class="link" href="#">Facebook</a></li>
+          <li mobile-social__item><a class="link" href="#">LinkedIn</a></li>
         </ul>
       </div>
       <!-- Контакти -->
