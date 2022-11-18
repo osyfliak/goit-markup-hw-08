@@ -1,31 +1,38 @@
+.work {
 
-.work-list {
-    display: flex;
-    gap: 30px;
-
-    &__item {
-        position: relative;
+    @media screen and (max-width: 1199px) {
+        display: none;
     }
 
-    &__title {
-        margin-bottom: 50px;
-    }
+    &-list {
 
-    &__downtitle {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        background-color: rgba(47, 48, 58, 0.8);
-        width: 100%;
+        display: flex;
+        gap: 30px;
 
-        padding: 27px 0;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.1428;
-        text-align: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+        &__item {
+            position: relative;
+        }
 
-        color: #FFFFFF;
+        &__title {
+            margin-bottom: 50px;
+        }
+
+        &__downtitle {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: rgba(47, 48, 58, 0.8);
+            width: 100%;
+
+            padding: 27px 0;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.1428;
+            text-align: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
     }
 }

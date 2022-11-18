@@ -1,6 +1,14 @@
 .form-subscribe {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+
+    @media screen and (min-width: 1200px) {
+            flex-wrap: nowrap; 
+            
+            
+        }
    
 
     &__input {
@@ -17,9 +25,17 @@
         border-radius: 4px;
 
         outline: transparent;
+        @media screen and (min-width: 1200px) {
+               
+            }
     }
 }
 
 .footer__label{
-    max-width: 450px;
+    margin: 0 auto;
+    width: 100%;
+    @media screen and (max-width: 1200px) {
+        width: 450px;
+    }
+        
 }

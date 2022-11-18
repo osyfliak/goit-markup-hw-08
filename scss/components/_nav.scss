@@ -1,6 +1,11 @@
 .main-nav {
+
+    @media screen and (max-width: 767px) {
+            display: none;
+        }
     display: flex;
     align-items: center;
+    margin-left: 88px;
 
     &__list {
         display: flex;
