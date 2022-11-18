@@ -1,6 +1,9 @@
 
 .header-page {
     border-bottom: 1px solid #ECECEC;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .header__logo {
@@ -10,9 +13,6 @@
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+   
 }
 
-.logo--header{
-    margin: 16px auto 16px 0;   
-}
