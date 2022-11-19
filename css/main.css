@@ -465,6 +465,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .main-nav__link {
   position: relative;
@@ -1240,6 +1242,7 @@ img {
 }
 
 .input-block {
+  display: block;
   position: relative;
 }
 
