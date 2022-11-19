@@ -70,26 +70,35 @@
         </button>
 
         <ul class="mobile-nav__list list">
-          <li class="mobile-nav__item"><a class="mobile-nav__link link mobile-nav__link--current" href="./index.html">Студія</a></li>
-          <li class="mobile-nav__item"><a class="mobile-nav__link link" href="./portfolio.html">Портфоліо</a></li>
-          <li class="mobile-nav__item"><a class="mobile-nav__link link" href="#contacts">Контакти</a></li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link link mobile-nav__link--current" href="./index.html"
+              >Студія</a
+            >
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link link" href="#contacts">Контакти</a>
+          </li>
         </ul>
-        
-          <ul class="mobile-contact__list list">
-            <li class="mobile-contact__item">
-              <a class="mobile-tel__link link" href="tel.+380961111111">+38 096 111 11 11</a>
-            </li>
-            <li class="mobile-contact__item">
-              <a class="mobile-mail__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-          </ul>
-          <ul class="mobile-social__list list">
-            <li mobile-social__item><a class="mobile-social__link link" href="#">Instagram</a></li>
-            <li mobile-social__item><a class="mobile-social__link link" href="#">Twitter</a></li>
-            <li mobile-social__item><a class="mobile-social__link link" href="#">Facebook</a></li>
-            <li mobile-social__item><a class="mobile-social__link link" href="#">LinkedIn</a></li>
-          </ul>
-        
+
+        <ul class="mobile-contact__list list">
+          <li class="mobile-contact__item">
+            <a class="mobile-tel__link link" href="tel.+380961111111">+38 096 111 11 11</a>
+          </li>
+          <li class="mobile-contact__item">
+            <a class="mobile-mail__link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-social__list list">
+          <li class="mobile-social__item"><a class="mobile-social__link link" href="#">Instagram</a></li>
+          <li class="mobile-social__item"><a class="mobile-social__link link" href="#">Twitter</a></li>
+          <li class="mobile-social__item"><a class="mobile-social__link link" href="#">Facebook</a></li>
+          <li class="mobile-social__item"><a class="mobile-social__link link" href="#">LinkedIn</a></li>
+        </ul>
       </div>
     </header>
 
@@ -200,12 +209,27 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list__item">
-              <img
-                class="team-list__image"
-                src="./images/product_designer.jpg"
-                alt="Ігор Дем'яненко - Product Designer"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="./images/product_designer-mobile.jpg 1x, ./images/product_designer-mobile@2x.jpg 2x"
+                  media="(max-width:767px)"/>
+                <source
+                  srcset="./images/product_designer-tablet.jpg 1x, ./images/product_designer-tablet@2x.jpg 2x"
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="./images/product_designer.jpg 1x, ./images/product_designer@2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+
+                <img
+                  class="team-list__image"
+                  src="./images/product_designer.jpg"
+                  alt="Ігор Дем'яненко - Product Designer"
+                  width="270"
+                />
+              </picture>
+
               <h3 class="team-list__title">Ігор Дем'яненко</h3>
               <p class="team-list__description">Product Designer</p>
               <ul class="social-list list">
@@ -254,12 +278,27 @@
               </ul>
             </li>
             <li class="team-list__item">
-              <img
+              <picture>
+                <source
+                  srcset="./images/frontend_developer-mobile.jpg 1x, ./images/frontend_developer-mobile@2x.jpg 2x"
+                  media="(max-width:767px)"/>
+                <source
+                  srcset="./images/frontend_developer-tablet.jpg 1x, ./images/frontend_developer-tablet@2x.jpg 2x"
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="./images/frontend_developer.jpg 1x, ./images/frontend_developer@2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+
+                 <img
                 class="team-list__image"
                 src="./images/frontend_developer.jpg"
                 alt="Ольга Рєпіна - Frontend Developer"
                 width="270"
               />
+              </picture>
+             
               <h3 class="team-list__title">Ольга Рєпіна</h3>
               <p class="team-list__description">Frontend Developer</p>
               <ul class="social-list list">
@@ -308,12 +347,27 @@
               </ul>
             </li>
             <li class="team-list__item">
-              <img
+              <picture>
+                <source
+                  srcset="./images/marketing-mobile.jpg 1x, ./images/marketing-mobile@2x.jpg 2x"
+                  media="(max-width:767px)"/>
+                <source
+                  srcset="./images/marketing-tablet.jpg 1x, ./images/marketing-tablet@2x.jpg 2x"
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="./images/marketing.jpg 1x, ./images/marketing@2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+
+               <img
                 class="team-list__image"
                 src="./images/marketing.jpg"
                 alt="Микола Тарасов - Marketing"
                 width="270"
               />
+              </picture>
+             
               <h3 class="team-list__title">Микола Тарасов</h3>
               <p class="team-list__description">Marketing</p>
               <ul class="social-list list">
@@ -362,12 +416,27 @@
               </ul>
             </li>
             <li class="team-list__item">
-              <img
+              <picture>
+                <source
+                  srcset="./images/ui_designer.jpg 1x, ./images/ui_designer-mobile@2x.jpg 2x"
+                  media="(max-width:767px)"/>
+                <source
+                  srcset="./images/ui_designer.jpg 1x, ./images/ui_designer-tablet@2x.jpg 2x"
+                  media="(max-width:1199px)"
+                />
+                <source
+                  srcset="./images/ui_designer.jpg 1x, ./images/ui_designer@2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+
+            <img
                 class="team-list__image"
-                src="./images/ui_designer.jpg"
+                src="./images/product_designer.jpg"
                 alt="Михало Єрмаков - UI Designer"
                 width="270"
               />
+              </picture>
+             
               <h3 class="team-list__title">Михало Єрмаков</h3>
               <p class="team-list__description">UI Designer</p>
               <ul class="social-list list">
