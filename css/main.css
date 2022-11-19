@@ -580,7 +580,7 @@ img {
 .form-subscribe__input {
   background-color: transparent;
   color: #FFFFFF;
-  width: 450px;
+  width: 100%;
   height: 50px;
   padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -589,20 +589,9 @@ img {
   border-radius: 4px;
   outline: transparent;
 }
-@media screen and (min-width: 768px) {
-  .form-subscribe__input {
-    width: 450px;
-  }
-}
-
 .footer__label {
   margin: 0 auto;
   width: 100%;
-}
-@media screen and (max-width: 1200px) {
-  .footer__label {
-    width: 450px;
-  }
 }
 
 .section-title {
