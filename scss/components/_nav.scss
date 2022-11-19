@@ -1,17 +1,22 @@
 .main-nav {
 
     @media screen and (max-width: 767px) {
-            display: none;
-        }
+        display: none;
+    }
+
     display: flex;
     align-items: center;
-   
+
 
     &__list {
         display: flex;
         gap: 50px;
-        margin-left: 88px;
-        margin-right: 50px;
+
+        @media screen and (max-width: 767px) {
+            margin-left: 88px;
+            margin-right: 50px;
+        }
+
     }
 
     &__link {
