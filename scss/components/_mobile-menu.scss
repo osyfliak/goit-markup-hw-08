@@ -54,9 +54,6 @@
     &__item:not(:last-child) {
         margin-bottom: 32px;
     }
-
-
-
 }
 
 .mobile-social {
@@ -81,12 +78,10 @@
 
         letter-spacing: 0.02em;
         padding: 0 10px;
-
-
     }
 
     &__item:not(:last-child) {
-        border-right: 1px solid black;
+        border-right: 1px solid rgba(33, 33, 33, 0.2);;
     }
 
 }
