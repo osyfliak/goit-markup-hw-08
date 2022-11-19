@@ -936,6 +936,12 @@ img {
 .features {
   padding-bottom: 0;
 }
+@media screen and (min-width: 1200px) {
+  .features {
+    padding-bottom: 60px;
+  }
+}
+
 .features-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1339,6 +1345,10 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
   }
+}
+
+.checkbox-text {
+  padding-left: 20px;
 }
 
 .filter-list {
