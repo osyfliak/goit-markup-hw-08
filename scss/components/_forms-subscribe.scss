@@ -1,13 +1,10 @@
 .form-subscribe {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
     flex-direction: column;
 
-    @media screen and (min-width: 1200px) {
-            flex-wrap: nowrap; 
-                   
-        }
+
+
    
 
     &__input {
@@ -15,7 +12,7 @@
         background-color: transparent;
         color: #FFFFFF;
         
-        width: 100%;
+        width: 450px;
         height: 50px;
 
         padding: 15px 16px;
@@ -24,8 +21,8 @@
         border-radius: 4px;
 
         outline: transparent;
-        @media screen and (min-width: 1200px) {
-               
+        @media screen and (min-width: 768px) {
+               width: 450px;
             }
     }
 }
