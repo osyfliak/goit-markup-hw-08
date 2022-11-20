@@ -1,16 +1,24 @@
 .contact-list {
     @media screen and (max-width: 767px) {
             display: none;
+           
         }
     display: flex;
    
-    flex-wrap: wrap;
+    
     gap: 30px;
    
         @media screen and (min-width: 768px) {    
                 gap: 10px;
                 margin: 0 ;
+                flex-direction: column;
+                margin: 0;
+                align-items: flex-start;
             }
+
+                        @media screen and (min-width: 768px) {
+                     justify-content: end;
+                        }
 
     &__link {
         color: var(--title-text-color);

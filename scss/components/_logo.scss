@@ -10,9 +10,11 @@
 
     display: flex;
     justify-content: end;
+
+    margin: 0;
       
         @media screen and (min-width: 1200px) {
-                margin-right: 93px;
+                margin-right: 92px;
             }
    
 }

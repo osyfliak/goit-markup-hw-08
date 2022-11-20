@@ -1,5 +1,5 @@
 .main-nav {
-
+margin-left: 0;
     @media screen and (max-width: 767px) {
         display: none;
     }
@@ -12,10 +12,13 @@
         display: flex;
         gap: 50px;
 
-        @media screen and (max-width: 767px) {
-            margin-left: 88px;
-            margin-right: 50px;
+        @media screen and (min-width: 767px) {
+         
         }
+
+                 @media screen and (min-width: 1200px) {
+                   margin-right: 315px;
+                 }
 
     }
 
@@ -59,13 +62,12 @@
 }
 
 
-
-
-
-
 .test{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
+    @media screen and (min-width: 1200px) {
+            gap: 10px;
+            }
+        }
+
