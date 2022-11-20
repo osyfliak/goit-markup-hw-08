@@ -3,13 +3,15 @@
     background-color: var(--background-footer-color);
     padding: 60px 0;
 
+    justify-content: center;
     &__container {
 
         @media screen and (min-width: 768px) {
             display: flex;
             flex-wrap: wrap;
-
             gap: 60px 185px;
+
+            justify-content: space-around;
         }
 
         @media screen and (min-width: 1200px) {
@@ -102,14 +104,13 @@
 .footer-page__form {
     margin-left: auto;
 
-    @media screen and (min-width: 1200px) {
-        margin-left: auto;
-    }
-
-    @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
         margin: 0 auto;
     }
-
+ 
+   @media screen and (min-width: 1200px) {
+       margin-right: 0;
+   }
 }
 
 .footer__title {

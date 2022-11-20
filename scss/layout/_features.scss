@@ -1,9 +1,7 @@
-
-
 .features-list {
     display: flex;
     flex-wrap: wrap;
-   
+
     gap: 30px;
 
     &__icon-wrapper {
@@ -21,18 +19,18 @@
     }
 
     &__item {
-        
+
         width: 100%;
 
         @media screen and (min-width: 768px) {
-                max-width: 354px;
-            }
-            
+            max-width: 354px;
+        }
+
         @media screen and (min-width: 1200px) {
             max-width: 270px;
         }
 
-      
+
     }
 
     &__dowmtitle {
@@ -44,6 +42,14 @@
         line-height: 1.14;
         text-transform: uppercase;
         text-align: center;
+
+        @media screen and (min-width: 768px) {
+            text-align: start;
+        }
+
+
+
+
 
     }
 
